@@ -3,7 +3,7 @@ from tkinter import *
 from tkinter import filedialog as FileDialog
 from io import open
 
-ruta = "" # La utilizaremos para almacenar la ruta del fichero
+ruta = "" 
 
 def nuevo():
     global ruta
@@ -91,5 +91,5 @@ monitor.pack(side='left')
 
 
 root.config(menu=menubar)
-#Finalmente bucle de la aplicacion
+
 root.mainloop()
